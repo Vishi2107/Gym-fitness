@@ -18,7 +18,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
     } = useForm();
 
     const onSubmit = async (e: any) => {
-        const inValid = await trigger();
+        const isValid = await trigger();
         if(!isValid){
             e.preventDefault();
         }
