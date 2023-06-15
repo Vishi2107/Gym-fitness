@@ -3,9 +3,9 @@ import { SelectedPage } from '@/shared/types'
 import ActionButton from '@/shared/ActionButton';
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponserRedBull from "@/assets/SponserRedBull.png";
-import SponserForbes from "@/assets/SponserForbes.png";
-import SponserFortune from "@/assets/SponserFortune.png";
+import SponsorRedBull from "@/assets/SponsorRedBull.png";
+import SponsorForbes from "@/assets/SponsorForbes.png";
+import SponsorFortune from "@/assets/SponsorFortune.png";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { motion } from 'framer-motion';
 
@@ -81,9 +81,9 @@ const Home = ({ setSelectedPage }: Props) => {
             <div className="h-{150px} w-full bg-primary-100 py-10">
                 <div className="mx-auto w-5/6">
                     <div className="flex w-3/5 items-center justify-between gap-8">
-                        <img src={SponserRedBull} alt="redbull-sponsor" />
-                        <img src={SponserForbes} alt="forbes-sponsor" />
-                        <img src={SponserFortune} alt="fortune-sponsor" />
+                        <img src={SponsorRedBull} alt="redbull-sponsor" />
+                        <img src={SponsorForbes} alt="forbes-sponsor" />
+                        <img src={SponsorFortune} alt="fortune-sponsor" />
                     </div>
                 </div>
             </div>
