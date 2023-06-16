@@ -141,4 +141,4 @@ const ContactUs = ({setSelectedPage}: Props) => {
   )
 }
 
-export default ContactUs
+export default ContactUs;
